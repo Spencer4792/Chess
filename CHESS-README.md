@@ -9,6 +9,7 @@
 ### Start the Server
 ```bash
 java -jar chess-server.jar
+if you are in the chess directory, then use java -jar server/target/chess-server.jar
 ```
 
 The server will start on port 8080 by default. You'll see:
@@ -25,7 +26,8 @@ Press Ctrl+C to stop the server
 ### Start the Client(s)
 In separate terminal windows, run:
 ```bash
-java -jar chess-client.jar http://localhost:8080
+java -jar server/target/chess-server.jar
+Amd then in your browser run: http://localhost:8080/chess.html
 ```
 
 ### Playing the Game
