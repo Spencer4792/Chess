@@ -122,7 +122,7 @@ Switch themes anytime using the buttons above the board:
 
 ---
 
-## 📁 Architecture
+## Architecture
 
 ```
 Chess/
